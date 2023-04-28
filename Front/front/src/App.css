@@ -1,0 +1,125 @@
+/* main */
+.bg{
+  background-color: white;
+  align-items: center;
+}
+
+.maincon {
+  width:80%;
+  min-height: 35rem;
+  overflow-y: hidden;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.header{
+  font-size: 50px;
+}
+
+/* navbar */
+.navbar{
+  width: 100%;
+  background-color: #343A40;
+  height: 2.7rem;
+}
+
+.navitem_float_left{
+  display: block;
+  padding: 0.5rem;
+  color: #FFFFFF80;
+  float: left;
+}
+
+.navitem_float_right{
+  display: block;
+  padding: 0.5rem;
+  color: #FFFFFF80;
+  float: right;
+}
+
+a{ color: inherit;}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover {
+  color: white;
+}
+
+a:active { text-decoration: none; }
+
+.navlink{
+  color: inherit;
+}
+/* form */
+.formclass{
+  background-color: #D6DBDF;
+  max-width: 25rem;
+  padding: 2rem;
+  margin: 2rem auto 2rem;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0.1rem 0.2rem 0.2rem rgb(0 0 0 / 30%);
+  flex-direction: column;
+  word-wrap: break-word;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.labelclass{
+  padding: auto;
+  margin:auto;
+}
+/* Mainfont */
+.bodyfont{
+  font-size: 1.5rem;
+  /* letter-spacing: 0.5rem; */
+  line-height: 3rem;
+}
+/* experimental */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.binicon{
+  height: 1rem;
+  width: 1rem;
+}
